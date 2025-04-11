@@ -52,6 +52,10 @@ body {
     color: green;
 }
 
+.text {
+    color: black;
+}
+
 .main02 p {
     font-size: 22px;
     text-align: center;
@@ -73,24 +77,114 @@ body {
 }
 
 .para03 {
-    font-size: 45px;
-    margin: 60px;
+    font-size: 30px;
+    height: 200px;
+    margin-top: 300px;
+    padding: 30px;
     width: 480px;
     font-weight: bold;
-
-}
-
-.para3 {
     text-align: center;
-    margin: 80px;
+    margin: auto;
+
 }
+
+
 
 .end {
-    margin: 280px;
-    font-size: 30px;
+    font-size: 20px;
     width: 180px;
-}
+    text-align: center;
+    margin: auto;
 
+}
+.t-2{
+    color: rgb(75, 74, 74);
+}
+ 
+@media (max-width: 1024px) {
+    .main {
+        /* flex-direction: column; */
+        margin: 30px;
+    }
+
+    .heading {
+        font-size: 40px;
+        margin: 45px;
+        width: 350px;
+    }
+
+    .line {
+        width: 450px;
+        height: 0px;
+        border: 1px solid black;
+        margin: 40px;
+    }
+
+    .para {
+        font-size: 22px;
+        margin: 45px;
+        width: 350px;
+    }
+
+    .para2 {
+        font-size: 25px;
+        margin: 45px;
+    }
+
+    .main02 {
+        text-align: center;
+        width: 520px;
+        height: auto;
+        padding: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        background-color: white;
+    }
+
+    .main02 h2 {
+        font-size: 30px;
+        text-align: center;
+        color: green;
+    }
+
+    .main02 p {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contact {
+        display: flex;
+        gap: 5px;
+        margin: 8px;
+
+    }
+
+    .contact p {
+        font-size: 15px;
+        padding: 8px;
+
+
+    }
+
+    .para03 {
+        font-size: 35px;
+        /* margin: 40px; */
+        width: 380px;
+        font-weight: bold;
+
+    }
+
+    .para3 {
+        text-align: center;
+        margin: 40px;
+    }
+
+    .end {
+        margin: 180px;
+        font-size: 22px;
+        width: 120px;
+    }
+
+}
 
 
 @media (max-width: 768px) {
@@ -126,7 +220,7 @@ body {
     .main02 {
         text-align: center;
         width: 520px;
-        height: 75vh;
+        height: auto;
         padding: 10px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
         background-color: white;
@@ -159,7 +253,7 @@ body {
 
     .para03 {
         font-size: 35px;
-        margin: 40px;
+        /* margin: 40px; */
         width: 380px;
         font-weight: bold;
 
@@ -211,7 +305,7 @@ body {
 
     .main02 {
         text-align: center;
-        width: 220px;
+        width: 320px;
         height: auto;
         padding: 10px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
